@@ -1,4 +1,4 @@
-ZeroEightOne
+ZeroEightOne PTVL Skin
 ============
 Install as you would any other PTVL Skin. 
 Included are some all white channel logo icons in the proper size for the skin.
