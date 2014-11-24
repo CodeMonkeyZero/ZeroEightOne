@@ -23,7 +23,6 @@
          <posy>0</posy>
          <width>1920</width>
          <height>1080</height>
-         <label />
          <font>font30</font>
          <align>center</align>
          <aligny>center</aligny>
@@ -35,7 +34,6 @@
          <width>100</width>
          <height>100</height>
          <aspectratio>keep</aspectratio>
-         <texture />
          <animation effect="fade" start="40" end="40" condition="True">Conditional</animation>
       </control>
       <control type="button" id="520">
@@ -72,7 +70,6 @@
             </control>
          </control>
          <!-- AUDIO VIDEO CODEC LOGOS -->
-		 
          <!-- <control type="label">
             <posx>444</posx>
             <posy>444</posy>
@@ -83,7 +80,7 @@
             <aligny>bottom</aligny>
             <textcolor>FFFFFFFF</textcolor>
             <label>$INFO[VideoPlayer.VideoCodec]</label>
-         </control> --> 
+         </control> -->
          <control type="grouplist">
             <posx>108</posx>
             <posy>610</posy>
@@ -101,7 +98,7 @@
                <texture>$INFO[VideoPlayer.VideoResolution,flags\resolution\,.png]</texture>
                <visible>!IsEmpty(VideoPlayer.VideoResolution)</visible>
             </control>
-           <control type="image">
+            <control type="image">
                <description>Codec Image</description>
                <width>105</width>
                <height>60</height>
@@ -198,7 +195,7 @@
             <control type="image" id="71">
                <width>550</width>
                <height>282</height>
-			   <fadetime>400</fadetime>
+               <fadetime>400</fadetime>
                <visible>VideoPlayer.Content(movies)</visible>
                <texture>$INFO[Player.Art(thumb)]</texture>
                <aspectratio>stretch</aspectratio>
@@ -206,7 +203,7 @@
             <control type="image" id="72">
                <width>550</width>
                <height>282</height>
-			   <fadetime>400</fadetime>
+               <fadetime>400</fadetime>
                <visible>VideoPlayer.Content(files)</visible>
                <texture>$INFO[Player.Art(thumb)]</texture>
                <aspectratio>stretch</aspectratio>
@@ -214,11 +211,11 @@
             <control type="image" id="73">
                <width>550</width>
                <height>282</height>
-			   <fadetime>400</fadetime>
+               <fadetime>400</fadetime>
                <visible>VideoPlayer.Content(episodes)</visible>
                <texture>$INFO[Player.Art(tvshow.poster)]</texture>
                <aspectratio>stretch</aspectratio>
-            </control>		
+            </control>
          </control>
          <!-- SHOW NAME AND DESCRIPTION -->
          <control type="grouplist">
@@ -232,7 +229,6 @@
                <description>Show Name Label</description>
                <width min="50" max="550">auto</width>
                <height>30</height>
-               <label />
                <font>font12</font>
                <textcolor>FF00FF00</textcolor>
                <scroll>true</scroll>
@@ -244,7 +240,7 @@
                <description>Showtitle Sep Label</description>
                <width>10</width>
                <height>30</height>
-               <label>•</label>
+               <label>-</label>
                <font>font12</font>
                <textcolor>FF00FF00</textcolor>
             </control>
@@ -252,7 +248,6 @@
                <description>Show Title Label</description>
                <width min="50" max="270">auto</width>
                <height>30</height>
-               <label />
                <font>font12</font>
                <textcolor>FFFFFFFF</textcolor>
                <scroll>true</scroll>
@@ -269,7 +264,6 @@
             <height>300</height>
             <align>left</align>
             <aligny>top</aligny>
-            <label />
             <textcolor>FFFFFFFF</textcolor>
             <font>font10</font>
             <wrapmultiline>true</wrapmultiline>
@@ -315,7 +309,7 @@
             <posy>697</posy>
             <width>267</width>
             <height>30</height>
-            <label>$INFO[System.Time]  •  $INFO[Window(weather).Property(Location)]</label>
+            <label>$INFO[System.Time]  Õ  $INFO[Window(weather).Property(Location)]</label>
             <font>Font10</font>
             <align>center</align>
             <textcolor>FFFFFFFF</textcolor>
@@ -373,7 +367,6 @@
                <height>87</height>
                <visible>true</visible>
                <pauseatend>2666</pauseatend>
-               <label />
                <info>Control.GetLabel(123)</info>
                <info>Control.GetLabel(124)</info>
                <font>font16</font>
@@ -381,14 +374,14 @@
                <scrollout>false</scrollout>
                <textcolor>FFFFFFFF</textcolor>
                <align>center</align>
-			   <aligny>center</aligny>
+               <aligny>center</aligny>
                <autoscroll time="2000" delay="0" repeat="0">Skin.HasSetting(AutoScroll)</autoscroll>
             </control>
             <control type="label" id="123">
                <description>Notification Title</description>
                <font>font12</font>
                <align>center</align>
-			   <aligny>center</aligny>
+               <aligny>center</aligny>
                <textcolor>FFFFFFFF</textcolor>
                <visible>false</visible>
             </control>
@@ -396,7 +389,7 @@
                <description>Notification Show</description>
                <font>font12</font>
                <align>center</align>
-			   <aligny>center</aligny>
+               <aligny>center</aligny>
                <textcolor>FFFFFFFF</textcolor>
                <visible>false</visible>
             </control>
@@ -404,10 +397,232 @@
                <description>Notification Episode</description>
                <font>font12</font>
                <align>center</align>
-			   <aligny>center</aligny>
+               <aligny>center</aligny>
                <textcolor>FFFFFFFF</textcolor>
                <visible>false</visible>
             </control>
+         </control>
+      </control>
+      <!-- OVERLAY SIDEBAR MENU -->
+      <control type="group" id="119">
+         <visible />
+         <control type="image">
+            <description>Background Image</description>
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>1920</width>
+            <height>1080</height>
+            <texture>CMZSidebar100.png</texture>
+         </control>
+         <control type="button" id="997">
+            <posx>107</posx>
+            <posy>107</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>OnNow</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>1010</onup>
+            <ondown>998</ondown>
+         </control>
+         <control type="button" id="998">
+            <posx>107</posx>
+            <posy>159</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>OnDemand</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>997</onup>
+            <ondown>999</ondown>
+         </control>
+         <control type="button" id="999">
+            <posx>107</posx>
+            <posy>210</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>LastChannel</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>998</onup>
+            <ondown>1000</ondown>
+         </control>
+         <control type="button" id="1000">
+            <posx>107</posx>
+            <posy>262</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>Favorites</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>999</onup>
+            <ondown>1001</ondown>
+         </control>
+         <control type="button" id="1001">
+            <posx>107</posx>
+            <posy>314</posy>
+            <width>265</width>
+            <height>44</height>
+            <label />
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>1000</onup>
+            <ondown>1002</ondown>
+         </control>
+         <control type="button" id="1002">
+            <posx>107</posx>
+            <posy>365</posy>
+            <width>265</width>
+            <height>44</height>
+            <label />
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>1001</onup>
+            <ondown>1003</ondown>
+         </control>
+         <control type="button" id="1003">
+            <posx>107</posx>
+            <posy>417</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>EPGType</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>1002</onup>
+            <ondown>1004</ondown>
+         </control>
+         <control type="button" id="1004">
+            <posx>107</posx>
+            <posy>468</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>Record</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>1003</onup>
+            <ondown>1005</ondown>
+         </control>
+         <control type="button" id="1005">
+            <posx>107</posx>
+            <posy>520</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>Mute</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>1004</onup>
+            <ondown>1006</ondown>
+         </control>
+         <control type="button" id="1006">
+            <posx>107</posx>
+            <posy>572</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>Subtitle</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>1005</onup>
+            <ondown>1007</ondown>
+         </control>
+         <control type="button" id="1007">
+            <posx>107</posx>
+            <posy>623</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>VOSD</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>1006</onup>
+            <ondown>1008</ondown>
+         </control>
+         <control type="button" id="1008">
+            <posx>107</posx>
+            <posy>675</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>Sleep</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>1007</onup>
+            <ondown>1009</ondown>
+         </control>
+         <control type="button" id="1009">
+            <posx>107</posx>
+            <posy>727</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>Settings</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>1008</onup>
+            <ondown>1010</ondown>
+         </control>
+         <control type="button" id="1010">
+            <posx>107</posx>
+            <posy>778</posy>
+            <width>265</width>
+            <height>44</height>
+            <label>Exit</label>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>ffffffff</textcolor>
+            <texturefocus>SidebarButtonFocus.png</texturefocus>
+            <texturenofocus>SidebarButtonNoFocus.png</texturenofocus>
+            <onup>1009</onup>
+            <ondown>997</ondown>
          </control>
       </control>
    </controls>
