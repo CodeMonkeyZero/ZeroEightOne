@@ -1,4 +1,4 @@
-PseudoTV Live Skin - ZeroEightOne
+PseudoTV Live Skin - ZeroEightOne 081
 ============
 Install as you would any other PTVL Skin.
 Included are some all white channel logo icons in the proper size for the skin.
