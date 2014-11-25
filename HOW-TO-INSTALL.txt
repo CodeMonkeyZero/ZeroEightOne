@@ -1,15 +1,11 @@
 **************************************************************************************************
 INSTALLATION INSTRUCTIONS
 **************************************************************************************************
-1) MAKE SURE PseudoTV Live and XBMC are NOT running.
 
-2) COPY THE CONTENTS of the "skin" folder into the root of your PTVL "custom" folder. 
-	GENERALLY LOCATED HERE ON WINDOWS SYSTEMS. 
-	C:\Users\%user name%\AppData\Roaming\XBMC\addons\script.pseudotv.live-master\resources\skins\Custom
+COPY THE CONTENTS of the "skin" folder into the root of your PTVL "custom" folder. 
 
-3) CHANGE THE DEFAULT SKIN to Custom. You do this in PseudoTV Live's settings.
-
-4) Start XBMC, start PseudoTV Live and enjoy.
+GENERALLY LOCATED HERE ON WINDOWS SYSTEMS. 
+C:\Users\%user name%\AppData\Roaming\XBMC\addons\script.pseudotv.live-master\resources\skins\Custom
 
 TO CHANGE COLOR SCHEMES open the "ColorVariants" folder and select the color you want.
 Inside the color folder you selected, copy the two folders named "1080i" and "media" along with all the content 
@@ -20,7 +16,6 @@ to see the changes take effect.
 THE LOGOPACK FOLDER contains channel icons optimized for this skin. Copy it some place convenient and 
 set the PseudoTV Live options to use the icons contained within this folder.
 
-**************************************************************************************************
 SHOW YOUR SUPPORT
 **************************************************************************************************
 Buy me (CodeMonkeyZero) a beer. http://tinyurl.com/qdfv6bx
