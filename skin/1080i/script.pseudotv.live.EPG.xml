@@ -441,7 +441,6 @@
             <description>Dynamic art</description>
             <width>550</width>
             <height>282</height>
-            <fadetime>400</fadetime>
             <align>center</align>
             <aspectratio>stretch</aspectratio>
          </control>
@@ -460,7 +459,7 @@
          <font>font10</font>
          <wrapmultiline>true</wrapmultiline>
       </control>
-      <!--TRAK.TV COMING UP-->
+      <!--TRAKT.TV COMING UP-->
       <control type="grouplist">
          <posx>665</posx>
          <posy>930</posy>

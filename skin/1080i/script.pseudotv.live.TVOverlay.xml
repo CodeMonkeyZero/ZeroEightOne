@@ -59,7 +59,7 @@
             <height>1080</height>
             <texture>CMZOverlay100.png</texture>
          </control>
-         <!-- channel icon -->
+         <!-- CHANNEL ICON -->
          <control type="grouplist">
             <posx>1</posx>
             <posy>1</posy>
@@ -175,7 +175,7 @@
             <textcolor>FFFFFFFF</textcolor>
             <label>$INFO[Player.TimeRemaining]</label>
          </control>
-         <!-- large photo  -->
+         <!-- LARGE PHOTO  -->
          <control type="group">
             <posx>101</posx>
             <posy>690</posy>
@@ -195,7 +195,6 @@
             <control type="image" id="71">
                <width>550</width>
                <height>282</height>
-               <fadetime>400</fadetime>
                <visible>VideoPlayer.Content(movies)</visible>
                <texture>$INFO[Player.Art(thumb)]</texture>
                <aspectratio>stretch</aspectratio>
@@ -203,7 +202,6 @@
             <control type="image" id="72">
                <width>550</width>
                <height>282</height>
-               <fadetime>400</fadetime>
                <visible>VideoPlayer.Content(files)</visible>
                <texture>$INFO[Player.Art(thumb)]</texture>
                <aspectratio>stretch</aspectratio>
@@ -211,7 +209,6 @@
             <control type="image" id="73">
                <width>550</width>
                <height>282</height>
-               <fadetime>400</fadetime>
                <visible>VideoPlayer.Content(episodes)</visible>
                <texture>$INFO[Player.Art(tvshow.poster)]</texture>
                <aspectratio>stretch</aspectratio>
