@@ -143,67 +143,67 @@
       </control>
       <!--CHANNEL NUMBER-->
       <control type="grouplist">
-         <posx>265</posx>
+         <posx>266</posx>
          <posy>150</posy>
          <itemgap>7</itemgap>
          <orientation>vertical</orientation>
          <control type="label" id="311">
             <description>Channel 1 Number</description>
-            <width>45</width>
+            <width>41</width>
             <height>83</height>
             <label />
             <font>font10</font>
-            <align>left</align>
+            <align>center</align>
             <aligny>center</aligny>
             <textcolor>FF00FF00</textcolor>
          </control>
          <control type="label" id="312">
             <description>Channel 2 Number</description>
-            <width>45</width>
+            <width>41</width>
             <height>83</height>
             <label />
             <font>font10</font>
-            <align>left</align>
+            <align>center</align>
             <aligny>center</aligny>
             <textcolor>FF00FF00</textcolor>
          </control>
          <control type="label" id="313">
             <description>Channel 3 Number</description>
-            <width>45</width>
+            <width>41</width>
             <height>83</height>
             <label />
             <font>font10</font>
-            <align>left</align>
+            <align>center</align>
             <aligny>center</aligny>
             <textcolor>FF00FF00</textcolor>
          </control>
          <control type="label" id="314">
             <description>Channel 4 Number</description>
-            <width>45</width>
+            <width>41</width>
             <height>83</height>
             <label />
             <font>font10</font>
-            <align>left</align>
+            <align>center</align>
             <aligny>center</aligny>
             <textcolor>FF00FF00</textcolor>
          </control>
          <control type="label" id="315">
             <description>Channel 5 Number</description>
-            <width>45</width>
+            <width>41</width>
             <height>83</height>
             <label />
             <font>font10</font>
-            <align>left</align>
+            <align>center</align>
             <aligny>center</aligny>
             <textcolor>FF00FF00</textcolor>
          </control>
          <control type="label" id="316">
             <description>Channel 6 Number</description>
-            <width>45</width>
+            <width>41</width>
             <height>83</height>
             <label />
             <font>font10</font>
-            <align>left</align>
+            <align>center</align>
             <aligny>center</aligny>
             <textcolor>FF00FF00</textcolor>
          </control>
@@ -217,7 +217,7 @@
          <!--EPG NAME/ICON-->
          <control type="label" id="301">
             <description>Channel 1 Name</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <label />
             <font>font10</font>
@@ -228,7 +228,7 @@
          </control>
          <control type="image" id="321">
             <description>Channel 1 Icon</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <align>center</align>
             <aligny>center</aligny>
@@ -237,7 +237,7 @@
          </control>
          <control type="label" id="302">
             <description>Channel 2 Name</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <posy>2</posy>
             <label />
@@ -249,7 +249,7 @@
          </control>
          <control type="image" id="322">
             <description>Channel 2 Icon</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <align>center</align>
             <aligny>center</aligny>
@@ -258,7 +258,7 @@
          </control>
          <control type="label" id="303">
             <description>Channel 3 Name</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <posy>4</posy>
             <label />
@@ -270,7 +270,7 @@
          </control>
          <control type="image" id="323">
             <description>Channel 3 Icon</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <align>center</align>
             <aligny>center</aligny>
@@ -279,7 +279,7 @@
          </control>
          <control type="label" id="304">
             <description>Channel 4 Name</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <posy>6</posy>
             <label />
@@ -291,7 +291,7 @@
          </control>
          <control type="image" id="324">
             <description>Channel 4 Icon</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <align>center</align>
             <aligny>center</aligny>
@@ -300,7 +300,7 @@
          </control>
          <control type="label" id="305">
             <description>Channel 5 Name</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <posy>8</posy>
             <label />
@@ -312,7 +312,7 @@
          </control>
          <control type="image" id="325">
             <description>Channel 5 Icon</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <align>center</align>
             <aligny>center</aligny>
@@ -321,7 +321,7 @@
          </control>
          <control type="label" id="306">
             <description>Channel 6 Name</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <posy>10</posy>
             <label />
@@ -333,7 +333,7 @@
          </control>
          <control type="image" id="326">
             <description>Channel 6 Icon</description>
-            <width>145</width>
+            <width>158</width>
             <height>73</height>
             <align>center</align>
             <aligny>center</aligny>
