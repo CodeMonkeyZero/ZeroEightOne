@@ -8,10 +8,19 @@ Included are some all white channel logo icons in the proper size for the skin t
 You can use other icon sets if you wish, but you should always consider using the correctly sized logo images to avoid slowing down your EPG.
 
 ============
+<<<<<<< HEAD
 For help installing PTVL and skins go here.
+=======
+For help installing PseudoTV Live (PTVL) and skins go here.
+>>>>>>> origin/master
 http://forum.kodi.tv/showthread.php?tid=169032
 
 /// Show your support ///
 ============
 Buy me (CodeMonkeyZero) a beer. http://tinyurl.com/qdfv6bx
+<<<<<<< HEAD
 Buy Lunatixz a beer. http://tinyurl.com/lvs8ngb
+=======
+
+Buy Lunatixz a beer. http://tinyurl.com/lvs8ngb
+>>>>>>> origin/master
