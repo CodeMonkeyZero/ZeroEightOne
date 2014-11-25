@@ -227,7 +227,7 @@
                <width min="50" max="550">auto</width>
                <height>30</height>
                <font>font12</font>
-               <textcolor>FF59A5F8</textcolor>
+               <textcolor>FFA96ED7</textcolor>
                <scroll>true</scroll>
                <wrapmultiline>false</wrapmultiline>
                <scrollspeed>50</scrollspeed>
@@ -239,7 +239,7 @@
                <height>30</height>
                <label>-</label>
                <font>font12</font>
-               <textcolor>FF59A5F8</textcolor>
+               <textcolor>FFA96ED7</textcolor>
             </control>
             <control type="label" id="504">
                <description>Show Title Label</description>

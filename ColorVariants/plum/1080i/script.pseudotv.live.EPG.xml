@@ -72,7 +72,7 @@
          <font>font10</font>
          <align>left</align>
          <aligny>center</aligny>
-         <textcolor>FF59A5F8</textcolor>
+         <textcolor>FFA96ED7</textcolor>
       </control>
       <!--TIME BAR 2/3-->
       <control type="label" id="102">
@@ -85,7 +85,7 @@
          <font>font10</font>
          <align>left</align>
          <aligny>center</aligny>
-         <textcolor>FF59A5F8</textcolor>
+         <textcolor>FFA96ED7</textcolor>
       </control>
       <!--TIME BAR 3/3-->
       <control type="label" id="103">
@@ -98,7 +98,7 @@
          <font>font10</font>
          <align>left</align>
          <aligny>center</aligny>
-         <textcolor>FF59A5F8</textcolor>
+         <textcolor>FFA96ED7</textcolor>
       </control>
       <!-- DESCRIPTION INFO PANEL -->
       <control type="grouplist">
@@ -114,7 +114,7 @@
             <height>30</height>
             <label />
             <font>font12</font>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FFA96ED7</textcolor>
             <scroll>true</scroll>
             <wrapmultiline>false</wrapmultiline>
             <scrollspeed>50</scrollspeed>
@@ -126,7 +126,7 @@
             <height>30</height>
             <label>-</label>
             <font>font12</font>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FFA96ED7</textcolor>
          </control>
          <control type="label" id="501">
             <description>Show Title Label</description>
@@ -143,9 +143,9 @@
       </control>
       <!--CHANNEL NUMBER-->
       <control type="grouplist">
-	     <animation effect="fade" time="200" delay="200">Hidden</animation>
          <posx>266</posx>
          <posy>150</posy>
+		 <animation effect="fade" time="200" delay="200">Hidden</animation>
          <itemgap>7</itemgap>
          <orientation>vertical</orientation>
          <control type="label" id="311">
@@ -156,7 +156,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
          </control>
          <control type="label" id="312">
             <description>Channel 2 Number</description>
@@ -166,7 +166,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
          </control>
          <control type="label" id="313">
             <description>Channel 3 Number</description>
@@ -176,7 +176,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
          </control>
          <control type="label" id="314">
             <description>Channel 4 Number</description>
@@ -186,7 +186,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
          </control>
          <control type="label" id="315">
             <description>Channel 5 Number</description>
@@ -196,7 +196,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
          </control>
          <control type="label" id="316">
             <description>Channel 6 Number</description>
@@ -206,7 +206,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
          </control>
       </control>
       <!--CHANNEL LIST-->
@@ -225,7 +225,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
             <visible>StringCompare(Control.GetLabel(321),)</visible>
          </control>
          <control type="image" id="321">
@@ -246,7 +246,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
             <visible>StringCompare(Control.GetLabel(322),)</visible>
          </control>
          <control type="image" id="322">
@@ -267,7 +267,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
             <visible>StringCompare(Control.GetLabel(323),)</visible>
          </control>
          <control type="image" id="323">
@@ -288,7 +288,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
             <visible>StringCompare(Control.GetLabel(324),)</visible>
          </control>
          <control type="image" id="324">
@@ -309,7 +309,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
             <visible>StringCompare(Control.GetLabel(325),)</visible>
          </control>
          <control type="image" id="325">
@@ -330,7 +330,7 @@
             <font>font10</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>FF59A5F8</textcolor>
+            <textcolor>FF7B4F9D</textcolor>
             <visible>StringCompare(Control.GetLabel(326),)</visible>
          </control>
          <control type="image" id="326">
