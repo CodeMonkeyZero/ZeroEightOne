@@ -1,15 +1,18 @@
 **************************************************************************************************
 INSTALLATION INSTRUCTIONS
 **************************************************************************************************
-1) MAKE SURE PseudoTV Live and XBMC are NOT running.
+1) 	MAKE SURE PseudoTV Live and XBMC are NOT running.
 
-2) COPY THE CONTENTS of the "skin" folder into the root of your PTVL "custom" folder. 
-	GENERALLY LOCATED HERE ON WINDOWS SYSTEMS. 
-	C:\Users\%user name%\AppData\Roaming\XBMC\addons\script.pseudotv.live-master\resources\skins\Custom
+2) 	COPY THE CONTENTS of the "skin" folder into the root of your PseudoTV Live "custom" folder. 
+		THIS IS GENERALLY LOCATED HERE ON WINDOWS SYSTEMS. 
+		C:\Users\%user name%\AppData\Roaming\XBMC\addons\script.pseudotv.live-master\resources\skins\Custom
 
-3) CHANGE THE DEFAULT SKIN to Custom. You do this in PseudoTV Live's settings.
+3) 	Start XBMC
 
-4) Start XBMC, start PseudoTV Live and enjoy.
+4) 	Go into the PseudoTV Live's settings and change the skin PseudoTV Live uses to "Custom." The option
+	to change the skin is the first item located on the "Visual" tab in the program settings.
+
+5) 	Start PseudoTV Live and enjoy the new skin.
 
 TO CHANGE COLOR SCHEMES open the "ColorVariants" folder and select the color you want.
 Inside the color folder you selected, copy the two folders named "1080i" and "media" along with all the content 
