@@ -14,11 +14,15 @@ INSTALLATION INSTRUCTIONS
 
 5) 	Start PseudoTV Live and enjoy the new skin.
 
+*** NOTE COLOR SCHEMES HAVE BEEN DEPRECIATED AS OF V.0.5.7 AND WILL RESUME ONCE THE NEW FEATURES IN PTVL MATURE ***
+
+/// THIS INFORMATION LEFT FOR REFERENCE ////
 TO CHANGE COLOR SCHEMES open the "ColorVariants" folder and select the color you want.
 Inside the color folder you selected, copy the two folders named "1080i" and "media" along with all the content 
 they contain and paste them into the root of your skin folder. Overwriting ALL of the original files. The default 
 color scheme is blue but you can change it to any color you like as often as you like. Restart PsuedoTV Live
 to see the changes take effect.
+/// END REFERENCE ////
 
 THE LOGOPACK FOLDER contains channel icons optimized for this skin. Copy it some place convenient and 
 set the PseudoTV Live options to use the icons contained within this folder.
@@ -26,8 +30,9 @@ set the PseudoTV Live options to use the icons contained within this folder.
 **************************************************************************************************
 SHOW YOUR SUPPORT
 **************************************************************************************************
-Buy me (CodeMonkeyZero) a beer. http://tinyurl.com/qdfv6bx
-Buy Lunatixz a beer. http://tinyurl.com/lvs8ngb
+CodeMonkeyZero, (Quality PTVL Skins) http://tinyurl.com/qdfv6bx
+
+Lunatixz, (PseudoTV Live Developer) http://tinyurl.com/lvs8ngb
 
 **************************************************************************************************
 IF YOU HAVE QUESTIONS or need general support using PseudoTV Live visit the support forums here. 
