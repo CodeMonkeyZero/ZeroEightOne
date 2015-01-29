@@ -30,8 +30,8 @@
       <!-- BOTTOM CORNER CHANNEL BUG -->
       <control type="image" id="103">
          <description>CHANNEL BUG</description>
-         <posx>150r</posx>
-         <posy>125r</posy>
+         <posx>225r</posx>
+         <posy>200r</posy>
          <width>145</width>
          <height>73</height>
          <aspectratio>keep</aspectratio>
@@ -65,8 +65,10 @@
                <aspectratio>stretch</aspectratio>
             </control>
          </control>
-<!--          <control type="label" id="509" />
-         <control type="label" id="510" /> -->
+ 	     <control type="button" id="509" />
+         <control type="image" id="510">
+			<visible>false</visible>
+         </control>
          <control type="image" id="511">
             <description>SICKBEARD/COUCHPOTATO ICON</description>
             <posx>20</posx>

@@ -444,9 +444,11 @@
             <align>center</align>
             <aspectratio>stretch</aspectratio>
          </control>
+		 <control type="image" id="510">      
+		    <visible>false</visible>
+		 </control> 	
+         <control type="group" id="515" />
       </control>
-      <!--   <control type="label" id="510" /> -->
-      <control type="group" id="515" />
       <!-- VIDEOWINDOW BOX -->
       <control type="group" id="523">
          <control type="image">
