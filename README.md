@@ -9,10 +9,3 @@ You can use other icon sets if you wish, but you should always consider using th
 
 For help installing PTVL and skins go here.
 http://forum.kodi.tv/showthread.php?tid=169032
-
-------------------
-Show your support
-------------------
-CodeMonkeyZero, (Quality PTVL Skins) http://tinyurl.com/qdfv6bx
-
-Lunatixz, (PseudoTV Live Developer) http://tinyurl.com/lvs8ngb
